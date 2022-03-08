@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #ca965c;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #f4dfba;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+nav ul li a:hover {
+  color: #876445;
+  transition: 0.4s;
+  padding: 4px;
+  transition: 0.4s;
+}
+
+.btn {
+  color: #876445;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f4dfba;
+  padding: 8px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  transition: scale(1.2);
+}
+
+.btn:hover {
+  background-color: #876445;
+  color: #f4dfba;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #876445;
+  cursor: pointer;
+}
+
+span {
+  color: #f4dfba;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: #f4dfba;
+  margin: 20px 0px 20px;
+  font-size: 75px;
+}
+
+h3 {
+  color: #f4dfba;
+  font-size: 25px;
+  margin-bottom: 54px;
+}
+
+h4 {
+  color: #f4dfba;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.content span {
+  color: #876445;
+}
+
+.newlatter form {
+  width: 300px;
+  max-width: 100%;
+  position: relative;
+}
+
+.newlatter form input:first-child {
+  display: inline-block;
+  width: 100%;
+  padding: 14px 130px 14px 15px;
+  border: 2px solid #876445;
+  outline: none;
+  border-radius: 30px;
+}
+
+.newlatter form input:last-child {
+  position: absolute;
+  display: inline-block;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #876445;
+  color: #f4dfba;
+  box-shadow: 0px 0px 5px #000, 0px 0px 15px #ca965c;
+  top: 6px;
+  right: 8px;
+  cursor: pointer;
+}
+
+.newlatter form input:last-child:hover {
+  background-color: #f4dfba;
+  color: #876445;
+}
+
+.contact {
+  padding-top: 500px;
+  position: absolute;
+  width: 100%;
+  bottom: -300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  align-self: center;
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: #f4dfba;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__card {
+  background-color: #876445;
+  margin-bottom: 40px;
+  padding: 40px 0px;
+  padding-left: 40px;
+  padding-right: 300px;
+  border-radius: 40px;
+}
+
+.contact__content {
+}
+
+.contact__form {
+  position: relative;
+  margin-bottom: 90px;
+  height: 40px;
+}
+
+.contact__form input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #876445;
+  background: none;
+  color: #876445;
+  outline: none;
+  padding: 50px;
+  border-radius: 40px;
+  z-index: 1;
+  font-size: 20px;
+}
+
+.contact__form label {
+  position: absolute;
+  top: -15px;
+  left: 25px;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 10;
+  background-color: #ca965c;
+}
+
+.contact__form .btn {
+}
+
+.footer {
+  position: absolute;
+  bottom: -480px;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.589);
+}
